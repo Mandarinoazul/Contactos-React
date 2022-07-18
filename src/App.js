@@ -12,7 +12,8 @@ function App() {
   
   
   
-  //funcion para capturar datos de la api
+  //funcion para capturar datos de la pagina
+  // No me muestra datos de la pagina suministrada 
   const getData = async () => {
     const data = await fetch("http://www.raydelto.org/agenda/php")
     const dataJson = await data.json()
